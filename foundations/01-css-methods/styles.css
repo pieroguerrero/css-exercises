@@ -1,0 +1,21 @@
+div {
+    color: white;
+    background-color: red;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 19pt;
+}
+
+.p1 {
+    color: white;
+    background-color: green;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+#b1 {
+    color: black;
+    background-color: orange;
+    font-size: 12pt;
+}
