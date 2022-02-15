@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+
+    /* grid-template: 50px 50px / 250px 50px 50px; */
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px;
+
+    /* to define the new implicit rows may be defined: */
+    /* grid-auto-rows: 50px; */
+
+    /* column-gap: 10px;
+    row-gap: 100px; */
+    gap: 25px;
+
+/* -------------------------------------------------- */
+    /* To define all the configurations and create a grid: */
+
+    /* If the name of your grid area is foo, the name of the area’s starting row line and starting column line will be foo-start, and the name of its last row line and last column line will be foo-end */
+
+    /* display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer"; */
+
+}
+
+.container>div {
+    border: 1px solid blue;
+}
